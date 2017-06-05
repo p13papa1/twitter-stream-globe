@@ -162,8 +162,8 @@
 	 * Runs on each animation frame
 	 */ 
 	function render () {
-
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+                // aukshsa thn taxuthta kata 0.002
+		earthMesh.rotation.y = earthMesh.rotation.y + 0.007;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();
