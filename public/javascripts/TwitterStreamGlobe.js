@@ -53,7 +53,7 @@
 	 */
 	function addEarth () {
 
-	  var planeGeometry = new THREE.PlaneGeometry(1400, 800);
+	  var planeGeometry = new THREE.PlaneGeometry(1500, 800);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
