@@ -33,6 +33,7 @@ TweetPublisher.start = function () {
 	if (!stream) {
 
 		// Connect to stream and filter by a geofence that is the size of the Earth
+		// allaksa perioxh proeleushs apo to san fransisco
 		stream = twitter.stream('statuses/filter', { locations: '-122.75,36.8,-121.75,37.8' });
 
 		// When Tweet is received only process it if it has geo data
